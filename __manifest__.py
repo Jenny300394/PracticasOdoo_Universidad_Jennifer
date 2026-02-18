@@ -6,11 +6,13 @@
     "author": "Jennifer",
     "category": "Education",
     "depends": ["base"],
-        "data": [
+    "data": [
         "security/ir.model.access.csv",
         "views/university_views.xml",
         "views/university_menus.xml",
-        "views/university_report_views.xml"
+        "views/university_report_views.xml",
+        "views/student_report_template.xml",   
+        "views/student_report_action.xml",    
     ],
 
     "installable": True,

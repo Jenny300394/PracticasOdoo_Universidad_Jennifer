@@ -76,3 +76,4 @@ class Student(models.Model):
             "domain": [("student_id", "=", self.id)],
             "context": {"default_student_id": self.id},
         }
+        
